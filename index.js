@@ -15,8 +15,8 @@ var transporter = nodemailer.createTransport(
     service: "gmail",
     host: "smtp.gmail.com",
     auth: {
-      user: "jkp001@chowgules.ac.in",
-      pass: "Password@098"
+      user: "jfv002@chowgules.ac.in",
+      pass: "jeslynvaz2819"
     }
   })
 );
@@ -30,7 +30,7 @@ app.post("/email", (req, res) => {
 
   var mailOptions = {
     from: "somerealemail@gmail.com",
-    to: "pereirajoshua9@gmail.com",
+    to: "jeslynvaz1903@gmail.com",
     subject: "Booking Enquiry",
     text: "room: "+room+", name: "+name+", phone: "+phone+", email: "+email+", checkin: "+checkin+", checkout: "+checkout+", people: "+people+""
   };
